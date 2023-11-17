@@ -38,9 +38,13 @@ export default async function Navbar() {
             {user ? (
               <SignOutButton />
             ) : (
-              <Link href="/signin" className={s.link}>
-                Sign in
+              <div><Link href="/login" className={s.link}>
+                Log in
               </Link>
+              <Link href="/signup" className={s.navbarbutton}>
+                Sign up
+              </Link>
+              </div>
             )}
           </div>
         </div>

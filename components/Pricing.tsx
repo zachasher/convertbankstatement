@@ -52,7 +52,7 @@ export default function Pricing({
   const handleCheckout = async (price: Price) => {
     setPriceIdLoading(price.id);
     if (!user) {
-      return router.push('/signin');
+      return router.push('/login');
     }
     if (subscription) {
       return router.push('/account');
