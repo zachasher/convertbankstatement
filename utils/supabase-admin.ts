@@ -10,8 +10,8 @@ type Price = Database['public']['Tables']['prices']['Row'];
 // Note: supabaseAdmin uses the SERVICE_ROLE_KEY which you must only use in a secure server-side context
 // as it has admin privileges and overwrites RLS policies!
 const supabaseAdmin = createClient<Database>(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-  process.env.SUPABASE_SERVICE_ROLE_KEY || ''
+  process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://vqbdgkvgifccsoflosch.supabase.co',
+  process.env.SUPABASE_SERVICE_ROLE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZxYmRna3ZnaWZjY3NvZmxvc2NoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY5OTk3ODQ5MywiZXhwIjoyMDE1NTU0NDkzfQ.NdBRJ2L1lK05Ffyf-CYnlyTTDkCOoY1CbvXMXOem4eM'
 );
 
 const upsertProductRecord = async (product: Stripe.Product) => {
