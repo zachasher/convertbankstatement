@@ -5,6 +5,7 @@ import { PropsWithChildren } from 'react';
 import 'styles/main.css';
 
 import Hero from '@/components/ui/Hero';
+import Details from '@/components/ui/Details';
 
 const meta = {
   title: 'Next.js Subscription Starter',
@@ -53,6 +54,7 @@ export default function RootLayout({
           {/* @ts-expect-error */}
           <Navbar />
           <Hero/>
+          <Details/>
           <main
             id="skip"
             className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
