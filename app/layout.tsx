@@ -4,6 +4,8 @@ import Navbar from '@/components/ui/Navbar';
 import { PropsWithChildren } from 'react';
 import 'styles/main.css';
 
+import Hero from '@/components/ui/Hero';
+
 const meta = {
   title: 'Next.js Subscription Starter',
   description: 'Brought to you by Vercel, Stripe, and Supabase.',
@@ -50,12 +52,14 @@ export default function RootLayout({
         <SupabaseProvider>
           {/* @ts-expect-error */}
           <Navbar />
+          <Hero/>
           <main
             id="skip"
             className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
           >
             {children}
           </main>
+          
           <Footer />
         </SupabaseProvider>
       </body>
