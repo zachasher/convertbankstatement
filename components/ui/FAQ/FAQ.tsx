@@ -4,11 +4,11 @@ import { useState } from 'react';
 import React from 'react';
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+    const [openIndex, setOpenIndex] = useState<number | null>(null); // Specify the type for openIndex as number or null
 
-  const toggleAccordion = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+    const toggleAccordion = (index: number) => { // Define the type for index as number
+      setOpenIndex(openIndex === index ? null : index);
+    };
 
   const accordionItems = [
     {
