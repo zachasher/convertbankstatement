@@ -4,14 +4,14 @@ function Details() {
   return (
     <div className='flex flex-col items-center justify-center bg-white p-4'>
       <h2 className='text-black text-3xl font-bold p-4'>How to convert bank statements to Excel (XLS) or CSV</h2>
-      <div className='flex flex-row mb-8 w-1/2'>
-        <ol className='text-black w-1/2'>
+      <div className='flex flex-row items-center justify-center mb-8 w-1/2'>
+        <ol className='text-black w-1/2 flex flex-col justify-center'>
           <li className='text-black pb-8'>1. Click the "Choose File" button on our homepage or drag and drop your file into the designated area.</li>
           <li className='text-black pb-8'>2. Choose the PDF file you need to convert.</li>
-          <li className='text-black pb-8'>3. Download your converted file in CSV or Excel format and make your financial management easier!</li>
+          <li className='text-black'>3. Download your converted file in CSV or Excel format and make your financial management easier!</li>
         </ol>
         <img src="bs-graphic.jpg" alt="File converter graphic"
-              className="w-1/2 p-4 object-contain"/>
+              className="w-96 object-contain pl-4"/>
         {/* <p className='text-black bg-red-500 w-1/2'>Image</p> */}
       </div>
       <div className='flex w-1/2'>
