@@ -6,6 +6,7 @@ import 'styles/main.css';
 
 import Hero from '@/components/ui/Hero';
 import Details from '@/components/ui/Details';
+import FAQ from '@/components/ui/FAQ';
 
 const meta = {
   title: 'Next.js Subscription Starter',
@@ -55,12 +56,13 @@ export default function RootLayout({
           <Navbar />
           <Hero/>
           <Details/>
-          <main
+          <FAQ/>
+          {/* <main
             id="skip"
             className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
           >
             {children}
-          </main>
+          </main> */}
           
           <Footer />
         </SupabaseProvider>
