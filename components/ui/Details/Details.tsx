@@ -3,16 +3,16 @@ import React from 'react'
 function Details() {
   return (
     <div className='flex flex-col items-center justify-center bg-white py-4'>
-      <h2 className='text-black text-3xl font-bold p-8'>How to convert bank statements to Excel (XLS) or CSV</h2>
+      <h2 className='text-black text-3xl font-bold md:p-8'>How to convert bank statements to Excel (XLS) or CSV</h2>
       <div className='w-full flex flex-col-reverse md:flex-row items-center justify-center mb-16'>
         <ol className='text-black md:w-1/2 flex flex-col justify-center'>
           <li className='text-black pb-8'>1. Click the "Choose File" button on our homepage or drag and drop your file into the designated area.</li>
-          <li className='text-black pb-8'>2. Choose the PDF file you need to convert.</li>
-          <li className='text-black'>3. Download your converted file in CSV or Excel format and make your financial management easier!</li>
+          <li className='text-black pb-8'>2. Seect either CSV or Excel output format then wait for the system to convert your file.</li>
+          <li className='text-black'>3. Download your converted file and make your financial management easier!</li>
         </ol>
-        <div className='w-1/2 flex items-center justify-center'>
+        <div className='md:w-1/2 flex items-center justify-center'>
           <img src="bs-graphic.jpg" alt="File converter graphic"
-              className="w-96 object-contain pl-4"/>
+              className="md:w-96 object-contain md:pl-4"/>
         </div>
         
         {/* <p className='text-black bg-red-500 w-1/2'>Image</p> */}
