@@ -27,9 +27,9 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center mx-auto py-8 bg-white">
+    <div className="flex flex-col items-center mx-auto py-8 bg-white w-full">
       <h2 className='text-black font-bold text-3xl'>Frequently Asked Questions</h2>
-      <div className="w-1/2 mx-auto py-8 bg-white">
+      <div className="w-full mx-auto py-8 bg-white">
         {accordionItems.map((item, index) => (
           <div key={index} className="border rounded-md mb-2">
             <div

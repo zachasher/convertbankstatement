@@ -12,6 +12,12 @@
   @apply outline-none ring-2 ring-pink-500 ring-opacity-50;
 }
 
+/* styles/main.css or global CSS file */
+:root {
+  --font-arimo: 'Arimo', sans-serif; /* Adjust font name and fallback */
+}
+
+
 html {
   height: 100%;
   box-sizing: border-box;
@@ -21,8 +27,8 @@ html {
 
 html,
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
-    'Helvetica', sans-serif;
+  /* font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
+    'Helvetica', sans-serif; */
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   @apply text-white bg-zinc-800 antialiased;

@@ -5,18 +5,14 @@ import GitHub from '@/components/icons/GitHub';
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col items-center mx-auto px-6 bg-white">
-      <div className="w-2/3 flex justify-between py-12 text-black transition-colors duration-150 border-b lg:grid-cols-12 border-zinc-600 bg-white">
-        <div className="col-span-1 lg:col-span-2 w-80">
-          <Link
-            href="/"
-            className="flex items-center flex-initial font-bold md:mr-24"
-          >
-            <span className="mr-2 w-80">
+    <footer className="flex flex-col items-center justify-center mx-auto md:px-6 bg-white w-full">
+      <div className="flex flex-col md:flex-row justify-between w-full pb-4 md:py-12 text-black transition-colors duration-150 border-b lg:grid-cols-12 border-zinc-600 bg-white">
+        <div className="col-span-1 lg:col-span-2 md:w-80">
+            <Link href="/" className="flex items-center flex-initial font-bold mb-4 md:mr-24" aria-label="Logo">
               {/* <Logo /> */}
-              <img src="bs-logo.jpg" className='w-80'/>
-            </span>
-          </Link>
+              <img src="bsc-logo.webp" className='w-12'/>
+              <p className='text-black pl-2 font-bold'>Statement Converter</p>
+            </Link>
         </div>
         {/* <div className="col-span-1 lg:col-span-2">
           <ul className="flex flex-col flex-initial md:flex-1">

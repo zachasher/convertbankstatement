@@ -1,5 +1,5 @@
 .root {
-  @apply sticky top-0 bg-white z-40 transition-all duration-150 h-auto md:h-20;
+  @apply sticky top-0 bg-white z-40 transition-all duration-150 h-auto md:h-20 w-full;
 }
 
 .link {
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  @apply cursor-pointer rounded-full transform duration-100 ease-in-out;
+  @apply flex items-center cursor-pointer rounded-full transform duration-100 ease-in-out;
 }
 
 .navbarbutton {

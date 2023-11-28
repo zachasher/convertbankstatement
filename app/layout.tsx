@@ -4,12 +4,40 @@ import Navbar from '@/components/ui/Navbar';
 import { PropsWithChildren } from 'react';
 import 'styles/main.css';
 
+// import 'public/fonts/fontstyle.css';
+
 import Hero from '@/components/ui/Hero';
 import Details from '@/components/ui/Details';
 import FAQ from '@/components/ui/FAQ';
 
+// import localFont from 'next/font/local'
+
+// import { localFont } from 'next/font/local'
+
+// const arimo = localFont({
+//   src: '../public/fonts/Arimo-Regular.woff2',
+//   display: 'swap',
+//   variable: '--font-arimo',
+// })
+
+// import { Arimo } from 'next/font/google'
+ 
+// // If loading a variable font, you don't need to specify the font weight
+// const arimo = Arimo({
+//   subsets: ['latin'],
+//   display: 'swap',
+// })
+
+import { Arimo } from 'next/font/google'
+ 
+const arimo = Arimo({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-arimo',
+})
+
 const meta = {
-  title: 'Next.js Subscription Starter',
+  title: 'Bank Statement Converter',
   description: 'Brought to you by Vercel, Stripe, and Supabase.',
   cardImage: '/og.png',
   robots: 'follow, index',
@@ -49,9 +77,10 @@ export default function RootLayout({
   children
 }: PropsWithChildren) {
   return (
-    <html lang="en">
-      <body className="bg-black loading">
-        <SupabaseProvider>
+    <html lang="en" className={`${arimo.variable}`}>
+      <body className='bg-white loading flex flex-col items-center'>
+        <div className='w-5/6 md:w-2/3 flex flex-col items-center justify-center'>
+          <SupabaseProvider>
           {/* @ts-expect-error */}
           <Navbar />
           <Hero/>
@@ -66,7 +95,29 @@ export default function RootLayout({
           
           <Footer />
         </SupabaseProvider>
+        </div>
       </body>
     </html>
   );
 }
+
+// import { Arimo } from 'next/font/local'
+ 
+// const inter = Arimo({
+//   subsets: ['latin'],
+//   display: 'swap',
+//   variable: '--font-arimo',
+// })
+
+ 
+// export default function RootLayout({
+//   children,
+// }: {
+//   children: React.ReactNode
+// }) {
+//   return (
+//     <html lang="en" className={`${Arimo.variable}`}>
+//       <body>{children}</body>
+//     </html>
+//   )
+// }
