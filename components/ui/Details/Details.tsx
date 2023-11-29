@@ -7,7 +7,7 @@ function Details() {
       <div className='w-full flex flex-col-reverse md:flex-row items-center justify-center mb-16'>
         <ol className='text-black md:w-1/2 flex flex-col justify-center'>
           <li className='text-black pb-8'>1. Click the "Choose File" button on our homepage or drag and drop your file into the designated area.</li>
-          <li className='text-black pb-8'>2. Seect either CSV or Excel output format then wait for the system to convert your file.</li>
+          <li className='text-black pb-8'>2. Select either CSV or Excel output format then wait for the system to convert your file.</li>
           <li className='text-black'>3. Download your converted file and make your financial management easier!</li>
         </ol>
         <div className='md:w-1/2 flex items-center justify-center'>
