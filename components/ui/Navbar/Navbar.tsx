@@ -14,9 +14,9 @@ export default async function Navbar() {
 
   return (
     <nav className={s.root}>
-      <a href="#skip" className="sr-only focus:not-sr-only">
+      {/* <a href="#skip" className="sr-only focus:not-sr-only">
         Skip to content
-      </a>
+      </a> */}
       <div>
         <div className="relative flex flex-col md:flex-row justify-between py-4 align-center items-center md:py-3">
           <div className="flex items-center flex-1 mb-8 md:mb-0">
@@ -26,9 +26,9 @@ export default async function Navbar() {
               <p className='text-black pl-2 text-xl font-bold'>Statement Converter</p>
             </Link>
             <nav className="hidden ml-6 space-x-2 lg:block">
-              <Link href="/" className={s.link}>
+              {/* <Link href="/" className={s.link}>
                 Pricing
-              </Link>
+              </Link> */}
               {user && (
                 <Link href="/account" className={s.link}>
                   Account

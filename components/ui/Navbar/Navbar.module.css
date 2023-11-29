@@ -1,5 +1,5 @@
 .root {
-  @apply sticky top-0 bg-white z-40 transition-all duration-150 h-auto md:h-20 w-full;
+  @apply bg-white z-40 transition-all duration-150 h-auto md:h-20 w-full;
 }
 
 .link {
