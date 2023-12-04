@@ -37,8 +37,8 @@ const arimo = Arimo({
 })
 
 const meta = {
-  title: 'Bank Statement Converter',
-  description: 'Brought to you by Vercel, Stripe, and Supabase.',
+  title: 'Convert PDF Bank Statements to Excel/CSV (FREE)',
+  description: 'Accurate AI-Powered conversions of any bank statement worldwide into Excel/CSV. Start converting now for easier financial management.',
   cardImage: '/og.png',
   robots: 'follow, index',
   favicon: '/favicon.ico',
