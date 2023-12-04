@@ -19,7 +19,7 @@ export default async function Navbar() {
       </a> */}
       <div>
         <div className="relative flex flex-row md:flex-row justify-between py-4 align-center items-center md:py-3">
-          <div className="flex items-center justify-between flex-1 mb-8 md:mb-0">
+          <div className="flex items-center justify-between flex-1 md:mb-0">
             <Link href="/" className={s.logo} aria-label="Logo">
               {/* <Logo /> */}
               <img src="bsc-logo.webp" className="w-12 md:w-12" />

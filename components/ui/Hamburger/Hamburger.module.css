@@ -1,9 +1,5 @@
-.root {
-  @apply bg-white z-40 transition-all duration-150 h-auto md:h-20 w-full;
-}
-
 .link {
-  @apply inline-flex items-center leading-6 font-medium transition ease-in-out duration-75 cursor-pointer text-black rounded-md p-1;
+  @apply inline-flex items-center leading-6 text-lg font-medium transition ease-in-out duration-75 cursor-pointer text-black rounded-md p-2;
 }
 
 .link:hover {
@@ -19,7 +15,7 @@
 }
 
 .navbarbutton {
-  @apply inline-flex items-center leading-6 font-medium transition ease-in-out duration-75 cursor-pointer bg-black rounded-md px-5 py-2 ml-5;
+  @apply inline-flex items-center justify-center text-lg leading-6 font-medium transition ease-in-out duration-75 w-full cursor-pointer bg-black rounded-md px-5 py-2 mb-4;
 }
 
 .navbarbutton:hover {

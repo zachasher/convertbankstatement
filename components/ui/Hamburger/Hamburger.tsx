@@ -71,9 +71,9 @@
 // }
 
 // export default Hamburger;
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import s from './Hamburger.module.css';
+import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -93,16 +93,16 @@ const Hamburger = () => {
   return (
     <div className="flex items-center md:hidden">
       <button onClick={toggleMenu} className="focus:outline-none">
-        <div className='flex items-center justify-center h-6 w-8'>
+        <div className="flex items-center justify-center h-6 w-8">
           {!isOpen && (
-            <div className='flex flex-col justify-between h-6 w-8'>
+            <div className="flex flex-col justify-between h-6 w-8">
               <span className="block h-1 w-full rounded bg-black transition-all duration-300"></span>
               <span className="block h-1 w-full rounded bg-black transition-opacity duration-300"></span>
               <span className="block h-1 w-full rounded bg-black transition-all duration-300"></span>
             </div>
           )}
           {isOpen && (
-            <div className='flex flex-col items-center justify-center h-6 w-8'>
+            <div className="flex flex-col items-center justify-center h-6 w-8">
               <span className="block h-1 w-full rounded translate-y-0.5 bg-black transition-all duration-300 transform rotate-45"></span>
               <span className="block h-1 w-full rounded -translate-y-0.5 bg-black transition-all duration-300 transform -rotate-45"></span>
             </div>
@@ -117,20 +117,21 @@ const Hamburger = () => {
       )}
       {isOpen && (
         <div className="fixed top-24 left-0 w-full z-10 flex items-center justify-center">
-          <div className="bg-red-500 h-96 p-4 w-full flex flex-col items-center justify-center">
-            <ul className="py-4">
-              <li className="px-4 py-4 text-black">Menu Item 3</li>
-              <li className="px-4 py-4 text-black">Menu Item 1</li>
-              <li className="px-4 py-4 text-black">Menu Item 2</li>
-            </ul>
-            <div>
-                <Link href="/login" className={s.link}>
-                  Log in
-                </Link>
+          <div className="bg-white h-96 p-4 w-full flex flex-col items-center justify-center drop-shadow-xl">
+            <div className="flex w-full flex-col items-center justify-center">
+              <div className="flex w-full flex-col items-center justify-center mb-16">
                 <Link href="/login" className={s.navbarbutton}>
                   Sign up
                 </Link>
+                <Link href="/login" className={s.link}>
+                  Log in
+                </Link>
               </div>
+              <div className="flex w-full flex-col items-center justify-center">
+                <h3 className="text-black text-xl font-bold py-4">Contact</h3>
+                <a href="mailto:info@statementconverter.io" className='text-black'>info@statementconverter.io</a>
+              </div>
+            </div>
           </div>
         </div>
       )}
