@@ -117,7 +117,7 @@ const Hamburger = () => {
       )}
       {isOpen && (
         <div className="fixed top-24 left-0 w-full z-10 flex items-center justify-center">
-          <div className="bg-white h-96 p-4 w-full flex flex-col items-center justify-center drop-shadow-xl">
+          <div className="bg-white h-96 p-4 w-full flex flex-col items-center justify-center drop-shadow-xl border-black border-opacity-20 border-b-2">
             <div className="flex w-full flex-col items-center justify-center">
               <div className="flex w-full flex-col items-center justify-center mb-16">
                 <Link href="/login" className={s.navbarbutton}>
