@@ -3,11 +3,11 @@
 }
 
 .link:hover {
-  @apply text-green-700;
+  @apply text-[#1FAB89];
 }
 
 .link:focus {
-  @apply outline-none text-black ring-2 ring-green-700 ring-opacity-50;
+  @apply outline-none text-black ring-2 ring-[#1FAB89] ring-opacity-50;
 }
 
 .logo {
@@ -19,5 +19,9 @@
 }
 
 .navbarbutton:hover {
-  @apply bg-green-700;
+  @apply bg-[#1FAB89];
+}
+
+.navbarbutton:focus {
+  @apply outline-none  ring-2 ring-[#1FAB89] ring-opacity-50;
 }

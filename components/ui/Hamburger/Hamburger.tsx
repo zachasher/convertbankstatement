@@ -117,7 +117,7 @@ const Hamburger = () => {
       )}
       {isOpen && (
         <div className="fixed top-24 left-0 w-full z-10 flex items-center justify-center">
-          <div className="bg-white h-96 p-4 w-full flex flex-col items-center justify-center drop-shadow-xl border-black border-opacity-20 border-b-2">
+          <div className="bg-white h-96 p-4 w-full flex flex-col items-center justify-center drop-shadow-xl border-black border-opacity-10 border-b-2">
             <div className="flex w-full flex-col items-center justify-center">
               <div className="flex w-full flex-col items-center justify-center mb-16">
                 <Link href="/login" className={s.navbarbutton}>
@@ -128,8 +128,7 @@ const Hamburger = () => {
                 </Link>
               </div>
               <div className="flex w-full flex-col items-center justify-center">
-                <h3 className="text-black text-xl font-bold py-4">Contact</h3>
-                <a href="mailto:info@statementconverter.io" className='text-black'>info@statementconverter.io</a>
+                <a href="mailto:info@statementconverter.io" className='text-black text-lg font-bold py-4 hover:text-[#1FAB89]'>Contact</a>
               </div>
             </div>
           </div>
