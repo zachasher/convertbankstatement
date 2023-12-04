@@ -18,8 +18,8 @@ export default async function Navbar() {
         Skip to content
       </a> */}
       <div>
-        <div className="relative flex flex-col md:flex-row justify-between py-4 align-center items-center md:py-3">
-          <div className="flex items-center flex-1 mb-8 md:mb-0">
+        <div className="relative flex flex-row md:flex-row justify-between py-4 align-center items-center md:py-3">
+          <div className="flex items-center justify-between flex-1 mb-8 md:mb-0">
             <Link href="/" className={s.logo} aria-label="Logo">
               {/* <Logo /> */}
               <img src="bsc-logo.webp" className="w-12 md:w-12" />
@@ -27,6 +27,7 @@ export default async function Navbar() {
                 Statement Converter
               </p>
             </Link>
+            <Hamburger />
             <nav className="hidden ml-6 space-x-2 lg:block">
               {/* <Link href="/" className={s.link}>
                 Pricing
@@ -38,8 +39,8 @@ export default async function Navbar() {
               )}
             </nav>
           </div>
-          <Hamburger />
-          <div className="hidden lg:visible lg:flex justify-end flex-1 space-x-8">
+          
+          <div className="hidden md:visible md:flex justify-end flex-1 space-x-8">
             {user ? (
               <SignOutButton />
             ) : (
