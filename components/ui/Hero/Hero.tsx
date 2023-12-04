@@ -3,7 +3,7 @@ import React from 'react';
 function Hero() {
   return (
     <div className="w-full flex flex-col items-center justify-center bg-white md:py-8">
-      <h1 className="text-center text-black text-5xl py-4 font-bold font-sans">
+      <h1 className="text-center text-black text-4xl md:text-5xl py-4 font-bold font-sans">
         Bank Statement Converter
       </h1>
       <p className="text-center text-black pb-4 font-sans">
