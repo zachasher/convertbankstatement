@@ -92,7 +92,7 @@ const Hamburger = () => {
 
   return (
     <div className="flex items-center md:hidden">
-      <button onClick={toggleMenu} className="focus:outline-none">
+      <button onClick={toggleMenu} className="focus:outline-none" aria-label='Hambuger Menu'>
         <div className="flex items-center justify-center h-6 w-8">
           {!isOpen && (
             <div className="flex flex-col justify-between h-6 w-8">

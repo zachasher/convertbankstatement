@@ -20,20 +20,20 @@ function Details() {
       <div className='flex flex-col md:flex-row'>
         <div className='pb-4 md:px-2 flex flex-col text-center items-center justify-center'>
           {/* <p className='text-black mb-4 bg-red-500'>Image</p> */}
-          <img src="./SecurityShield.jpg" className='w-12 mb-4'/>
+          <img src="./SecurityShield.jpg" className='w-12 mb-4' alt='Security shield icon'/>
           <h3 className='text-black mb-2 font-bold'>Conversion is safe</h3>
           <p className='text-black'>Your financial data is in safe hands. Every conversion is encrypted using advanced SSL technology and all files are automatically deleted from our servers after conversion.</p>
         </div>
         <div className='pb-4 md:px-8 flex flex-col text-center items-center justify-center'>
           {/* <p className='text-black mb-4 bg-red-500'>Image</p> */}
-          <img src="./Services.jpg" className='w-12 mb-4'/>
+          <img src="./Services.jpg" className='w-12 mb-4'alt='Services gear icon'/>
           <h3 className='text-black mb-2 font-bold'>Accurate AI Conversion</h3>
           <p className='text-black'>Our AI-powered tool transforms PDFs to Excel with exceptional accuracy, outperforming traditional methods. 
 Experience precise data conversion for easier financial management.</p>
         </div>
         <div className='pb-4 md:px-2 flex flex-col text-center items-center justify-center'>
           {/* <p className='text-black mb-4 bg-red-500'>Image</p> */}
-          <img src="./BankBuilding.jpg" className='w-12 mb-4'/>
+          <img src="./BankBuilding.jpg" className='w-12 mb-4' alt='Bank building icon'/>
           <h3 className='text-black mb-2 font-bold'>Worldwide Banking Compatibility</h3>
           <p className='text-black'>Convert statements from any bank in the world with our user-friendly converter, it’s ideal for international finance management</p>
         </div>
