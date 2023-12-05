@@ -4,7 +4,7 @@ import AuthUI from './AuthUI';
 import { redirect } from 'next/navigation';
 import Logo from '@/components/icons/Logo';
 
-export default async function SignIn() {
+export default async function LogIn() {
   const session = await getSession();
 
   if (session) {

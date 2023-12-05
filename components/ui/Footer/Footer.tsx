@@ -1,8 +1,5 @@
 import Link from 'next/link';
 
-import Logo from '@/components/icons/Logo';
-import GitHub from '@/components/icons/GitHub';
-
 export default function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center mx-auto md:px-6 bg-white w-full">
@@ -14,37 +11,6 @@ export default function Footer() {
               <p className='text-black pl-2 font-bold'>Statement Converter</p>
             </Link>
         </div>
-        {/* <div className="col-span-1 lg:col-span-2">
-          <ul className="flex flex-col flex-initial md:flex-1">
-            <li className="py-3 md:py-0 md:pb-4">
-              <Link
-                href="/"
-                className="text-black transition duration-150 ease-in-out hover:text-green-500"
-              >
-                Home
-              </Link>
-            </li>
-            <li className="py-3 md:py-0 md:pb-4">
-              <Link
-                href="/"
-                className="text-black transition duration-150 ease-in-out hover:text-green-500"
-              >
-                About
-              </Link>
-            </li>
-            <li className="py-3 md:py-0 md:pb-4">
-              <Link
-                href="/"
-                className="text-black transition duration-150 ease-in-out hover:text-green-500"
-              >
-                Blog
-              </Link>
-            </li>
-            <li>
-              <p className='font-bold'>info@statementconverter.com</p>
-            </li>
-          </ul>
-        </div> */}
         <div className="col-span-1 lg:col-span-2">
           <ul className="flex flex-col flex-initial md:flex-1">
             <li className="py-3 md:py-0 md:pb-4">

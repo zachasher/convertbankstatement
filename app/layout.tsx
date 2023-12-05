@@ -4,29 +4,9 @@ import Navbar from '@/components/ui/Navbar';
 import { PropsWithChildren } from 'react';
 import 'styles/main.css';
 
-// import 'public/fonts/fontstyle.css';
-
 import Hero from '@/components/ui/Hero';
 import Details from '@/components/ui/Details';
 import FAQ from '@/components/ui/FAQ';
-
-// import localFont from 'next/font/local'
-
-// import { localFont } from 'next/font/local'
-
-// const arimo = localFont({
-//   src: '../public/fonts/Arimo-Regular.woff2',
-//   display: 'swap',
-//   variable: '--font-arimo',
-// })
-
-// import { Arimo } from 'next/font/google'
- 
-// // If loading a variable font, you don't need to specify the font weight
-// const arimo = Arimo({
-//   subsets: ['latin'],
-//   display: 'swap',
-// })
 
 import { Arimo } from 'next/font/google'
  
@@ -100,24 +80,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-// import { Arimo } from 'next/font/local'
- 
-// const inter = Arimo({
-//   subsets: ['latin'],
-//   display: 'swap',
-//   variable: '--font-arimo',
-// })
-
- 
-// export default function RootLayout({
-//   children,
-// }: {
-//   children: React.ReactNode
-// }) {
-//   return (
-//     <html lang="en" className={`${Arimo.variable}`}>
-//       <body>{children}</body>
-//     </html>
-//   )
-// }

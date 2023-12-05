@@ -23,7 +23,6 @@ const FAQ = () => {
       title: "Is my data secure with StatementConverter?",
       content: "Your data security is our top priority. We assure you that your information is completely safe with StatementConverter. After conversion, your data is promptly removed from our systems to ensure maximum privacy and security."
     }
-    // Add more items as needed
   ];
 
   return (
