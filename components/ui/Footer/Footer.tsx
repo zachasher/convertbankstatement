@@ -8,7 +8,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center flex-initial font-bold mb-4 md:mr-24" aria-label="Statement Converter Logo">
               {/* <Logo /> */}
               <img src="bsc-logo.webp" className='w-12' alt='Statement Converter Logo'/>
-              <p className='text-black pl-2 font-bold'>Statement Converter</p>
+              <p className='text-black pl-2 font-bold'>ConvertBankStatement</p>
             </Link>
         </div>
         <div className="col-span-1 lg:col-span-2">
@@ -20,7 +20,7 @@ export default function Footer() {
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="/"
+                href="/privacy-policy"
                 className="text-black transition duration-150 ease-in-out hover:text-zinc-200"
               >
                 Privacy Policy
@@ -28,14 +28,14 @@ export default function Footer() {
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="/"
+                href="/terms-of-use"
                 className="text-black transition duration-150 ease-in-out hover:text-zinc-200"
               >
                 Terms of Use
               </Link>
             </li>
             <li>
-              <p className='font-bold'>info@statementconverter.com</p>
+              <p className='font-bold'>info@convertbankstatement.io</p>
             </li>
           </ul>
         </div>
@@ -43,7 +43,7 @@ export default function Footer() {
       <div className="flex flex-col items-center justify-between py-12 space-y-4 md:flex-row bg-white">
         <div>
           <span className='text-black'>
-            &copy; {new Date().getFullYear()} Statment Converter, Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} ConvertBankStatement, Inc. All rights reserved.
           </span>
         </div>
       </div>

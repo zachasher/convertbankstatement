@@ -12,7 +12,7 @@ const FAQ = () => {
 
   const accordionItems = [
     {
-      title: 'How does StatementConverter process and convert PDF bank statements?',
+      title: 'How does ConvertBankStatement process and convert PDF bank statements?',
       content: 'StatementConverter uses advanced AI technologies, including Machine Learning, and OCR, to turn PDF bank statements into Excel, CSV, or JSON formats. Our standout feature is our high accuracy rate when converting bank statements. This high level of precision makes StatementConverter an ideal choice for those who require accuracy for workflow automation.'
     },
     {
@@ -20,7 +20,7 @@ const FAQ = () => {
       content: "Our tool can convert any bank statement, no matter the format or layout. We don't use fixed templates, so our tool works with every kind of statement. Our AI technology makes it easy to identify the data you need from any bank statement in the world."
     },
     {
-      title: "Is my data secure with StatementConverter?",
+      title: "Is my data secure with ConvertBankStatement?",
       content: "Your data security is our top priority. We assure you that your information is completely safe with StatementConverter. After conversion, your data is promptly removed from our systems to ensure maximum privacy and security."
     }
   ];

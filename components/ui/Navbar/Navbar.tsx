@@ -24,7 +24,7 @@ export default async function Navbar() {
               {/* <Logo /> */}
               <img src="bsc-logo.webp" className="w-12 md:w-12" alt='Statement Converter Logo'/>
               <p className="text-black pl-2 text-xl font-bold">
-                Statement Converter
+              ConvertBankStatement
               </p>
             </Link>
             <Hamburger />

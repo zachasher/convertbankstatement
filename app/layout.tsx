@@ -66,12 +66,12 @@ export default function RootLayout({
           <Hero/>
           <Details/>
           <FAQ/>
-          {/* <main
+          <main
             id="skip"
             className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
           >
             {children}
-          </main> */}
+          </main>
           
           <Footer />
         </SupabaseProvider>
