@@ -1,4 +1,4 @@
-import SupabaseProvider from './supabase-provider';
+import SupabaseProvider from '../supabase-provider';
 import Footer from '@/components/ui/Footer';
 import Navbar from '@/components/ui/Navbar';
 import { PropsWithChildren } from 'react';
@@ -56,6 +56,7 @@ export default function RootLayout({
   // This will be populated with nested layouts or pages
   children
 }: PropsWithChildren) {
+
   return (
     <html lang="en" className={`${arimo.variable}`}>
       <body className='bg-white loading flex flex-col items-center'>
@@ -66,12 +67,12 @@ export default function RootLayout({
           <Hero/>
           <Details/>
           <FAQ/>
-          <main
+          {/* <main
             id="skip"
             className="min-h-[calc(100dvh-4rem)] md:min-h[calc(100dvh-5rem)]"
           >
             {children}
-          </main>
+          </main> */}
           
           <Footer />
         </SupabaseProvider>

@@ -3,11 +3,11 @@ import React from 'react';
 function termsofuse() {
   return (
     <div className="text-black">
-      <h1 className="text-5xl font-bold pb-4">Terms of Use</h1>
+      <h1 className="text-4xl font-bold pb-4">Terms of Use</h1>
       <p className="pb-4 font-bold">Last Updated 07-12-2023</p>
       <ol>
         <li className="pb-4">
-          <h3 className="text-2xl font-medium pb-2">1. Acceptance of Terms</h3>
+          <h3 className="text-xl font-bold pb-2">1. Acceptance of Terms</h3>
           <p>
             By accessing or using the services provided by convertbankstatement.io
             ("Service"), you agree to comply with and be bound by these Terms of
@@ -16,12 +16,12 @@ function termsofuse() {
           </p>
         </li>
         <li className="pb-4">
-          <h3 className="text-2xl font-medium pb-2">2. Contact Information</h3>
+          <h3 className="text-xl font-bold pb-2">2. Contact Information</h3>
           <p>convertbankstatement.io</p>
           <p>Email: info@convertbankstatement.io</p>
         </li>
         <li className="pb-4">
-          <h3 className="text-2xl font-medium pb-4">
+          <h3 className="text-xl font-bold pb-4">
             3. Description of Service
           </h3>
           <p className="pb-4">
@@ -31,7 +31,7 @@ function termsofuse() {
           </p>
           <ol className="pl-4">
             <li>
-              <h3 className="text-2xl font-medium pb-2">3.1 How it Works</h3>
+              <h3 className="text-xl font-bold pb-2">3.1 How it Works</h3>
               <p className="pb-2">
                 To use convertbankstatement.io, follow these simple steps:
               </p>
@@ -53,12 +53,12 @@ function termsofuse() {
           </ol>
         </li>
         <li className="pb-4">
-          <h3 className="text-2xl font-medium pb-4">
+          <h3 className="text-xl font-bold pb-4">
             4. User Responsibilities and Restrictions
           </h3>
           <ol className="pl-4">
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">
+              <h3 className="text-xl font-bold pb-2">
                 4.1 Account Registration
               </h3>
               <p>
@@ -67,7 +67,7 @@ function termsofuse() {
               </p>
             </li>
             <li>
-              <h3 className="text-2xl font-medium pb-2">4.2 User Conduct</h3>
+              <h3 className="text-xl font-bold pb-2">4.2 User Conduct</h3>
               <p>
                 Users must use the Service for lawful purposes only and are
                 prohibited from sharing illegal content. This includes, but is
@@ -78,7 +78,7 @@ function termsofuse() {
           </ol>
         </li>
         <li className="pb-4">
-          <h3 className="text-2xl font-medium pb-2">
+          <h3 className="text-xl font-bold pb-2">
             5. Payment and Subscription Details
           </h3>
           <p>
@@ -87,10 +87,10 @@ function termsofuse() {
           </p>
         </li>
         <li className="pb-4">
-          <h3 className="text-2xl font-medium pb-4">6. Legal Aspects</h3>
+          <h3 className="text-xl font-bold pb-4">6. Legal Aspects</h3>
           <ol className="pl-4">
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">
+              <h3 className="text-xl font-bold pb-2">
                 6.1 Dispute Resolution
               </h3>
               <p>
@@ -100,7 +100,7 @@ function termsofuse() {
               </p>
             </li>
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">
+              <h3 className="text-xl font-bold pb-2">
                 6.2 Limitation of Liability
               </h3>
               <p>
@@ -111,7 +111,7 @@ function termsofuse() {
               </p>
             </li>
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">
+              <h3 className="text-xl font-bold pb-2">
                 6.3 Termination of Service
               </h3>
               <p className="pb-2">
@@ -125,7 +125,7 @@ function termsofuse() {
               </ul>
             </li>
             <li>
-              <h3 className="text-2xl font-medium pb-2">
+              <h3 className="text-xl font-bold pb-2">
                 6.4 Changes to Terms of Service
               </h3>
               <p>
@@ -137,17 +137,17 @@ function termsofuse() {
           </ol>
         </li>
         <li className="pb-4">
-          <h3 className="text-2xl font-medium pb-4">7. Miscellaneous</h3>
+          <h3 className="text-xl font-bold pb-4">7. Miscellaneous</h3>
           <ol className="pl-4">
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">7.1 Governing Law</h3>
+              <h3 className="text-xl font-bold pb-2">7.1 Governing Law</h3>
               <p>
                 These Terms are governed by the laws of the jurisdiction in
                 which convertbankstatement.io operates.
               </p>
             </li>
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">
+              <h3 className="text-xl font-bold pb-2">
                 7.2 Intellectual Property
               </h3>
               <p>
@@ -157,7 +157,7 @@ function termsofuse() {
               </p>
             </li>
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">7.3 Indemnification</h3>
+              <h3 className="text-xl font-bold pb-2">7.3 Indemnification</h3>
               <p>
                 Users agree to indemnify and hold harmless
                 convertbankstatement.io, its employees, and affiliates from any
@@ -165,7 +165,7 @@ function termsofuse() {
               </p>
             </li>
             <li className="pb-4">
-              <h3 className="text-2xl font-medium pb-2">7.4 Severability</h3>
+              <h3 className="text-xl font-bold pb-2">7.4 Severability</h3>
               <p>
                 If any provision of these Terms is found to be unenforceable,
                 the remaining provisions will continue to be in full force and
@@ -173,7 +173,7 @@ function termsofuse() {
               </p>
             </li>
             <li>
-              <h3 className="text-2xl font-medium pb-2">7.5 Waiver</h3>
+              <h3 className="text-xl font-bold pb-2">7.5 Waiver</h3>
               <p>
                 Failure by convertbankstatement.io to enforce any right or
                 provision of these Terms will not be deemed a waiver of such

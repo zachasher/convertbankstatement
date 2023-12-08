@@ -3,11 +3,11 @@ import React from 'react';
 function privacypolicy() {
   return (
     <div className="text-black">
-      <h1 className="text-5xl font-bold pb-4">Privacy Policy</h1>
+      <h1 className="text-4xl font-bold pb-4">Privacy Policy</h1>
       <p className='pb-4 font-bold'>Last Updated 07-12-2023</p>
       <ol>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>1. Introduction</h3>
+          <h3 className='text-xl font-bold pb-2'>1. Introduction</h3>
           <p>
             Welcome to convertbankstatement.io. We are dedicated to protecting
             your privacy and ensuring that your personal information is handled
@@ -17,10 +17,10 @@ function privacypolicy() {
           </p>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-4'>2. Information Collection</h3>
+          <h3 className='text-xl font-bold pb-4'>2. Information Collection</h3>
           <ol className='pl-4'>
             <li className='pb-4'>
-              <h3 className='text-2xl font-medium pb-2'>2.1 Personal Information</h3>
+              <h3 className='text-xl font-bold pb-2'>2.1 Personal Information</h3>
               <p>
                 We collect personal information that you voluntarily provide to
                 us when you use our service. This information may include your
@@ -30,7 +30,7 @@ function privacypolicy() {
               </p>
             </li>
             <li>
-              <h3 className='text-2xl font-medium pb-2'>2.2 Non-Personal Information</h3>
+              <h3 className='text-xl font-bold pb-2'>2.2 Non-Personal Information</h3>
               <p>
                 We may collect non-personal information such as usage data or
                 device information to improve our services and user experience.
@@ -41,7 +41,7 @@ function privacypolicy() {
           </ol>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>3. Information Use</h3>
+          <h3 className='text-xl font-bold pb-2'>3. Information Use</h3>
           <p className="pb-2">We use the information collected to:</p>
           <ul className="pl-4">
             <li className="list-disc pb-2">Provide and maintain our service</li>
@@ -56,7 +56,7 @@ function privacypolicy() {
           </p>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>4. Cookies and Tracking Technologies</h3>
+          <h3 className='text-xl font-bold pb-2'>4. Cookies and Tracking Technologies</h3>
           <p>
             We may use cookies and similar tracking technologies to enhance your
             experience on our website. You can manage cookies through your
@@ -65,7 +65,7 @@ function privacypolicy() {
           </p>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>5. Data Secucity</h3>
+          <h3 className='text-xl font-bold pb-2'>5. Data Secucity</h3>
           <p>
             We take the security of your personal information seriously and
             implement appropriate measures to protect it. In the unlikely event
@@ -74,7 +74,7 @@ function privacypolicy() {
           </p>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>6. User Rights and Choices</h3>
+          <h3 className='text-xl font-bold pb-2'>6. User Rights and Choices</h3>
           <p>
             You have the right to access, correct, or delete your personal
             information. To exercise these rights, please contact us at
@@ -82,7 +82,7 @@ function privacypolicy() {
           </p>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>7. Data Retention</h3>
+          <h3 className='text-xl font-bold pb-2'>7. Data Retention</h3>
           <p>
             We retain your personal information for as long as necessary to
             provide our service. Bank statements are deleted from our system
@@ -90,7 +90,7 @@ function privacypolicy() {
           </p>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>8. Changes to This Privacy Policy</h3>
+          <h3 className='text-xl font-bold pb-2'>8. Changes to This Privacy Policy</h3>
           <p>
             We may update our Privacy Policy from time to time. We will notify
             you of any significant changes by updating the "Last Updated" date
@@ -98,7 +98,7 @@ function privacypolicy() {
           </p>
         </li>
         <li className='pb-4'>
-          <h3 className='text-2xl font-medium pb-2'>9. Contact Us</h3>
+          <h3 className='text-xl font-bold pb-2'>9. Contact Us</h3>
           <p>
             If you have any questions or concerns about this Privacy Policy,
             please contact us at info@convertbankstatement.io
